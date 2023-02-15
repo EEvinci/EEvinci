@@ -1,4 +1,13 @@
-### Hi there 👋
+# Hi there 👋
+## Welcome to my Github
+
+- 🔭 I’m currently studying in university now
+- 🌱 I’m currently learning RL and NLP
+- 👯 I’m looking to collaborate on github with someone has same interests
+- 🤔 I’m looking for help with everyone as long as i can
+- 💬 Ask me about everything, but i can not promise to answer
+- 📫 How to reach me: evinciverciy@gmail.com
+
 
 <!--
 **EEvinci/EEvinci** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
