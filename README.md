@@ -1,24 +1,33 @@
-# Hi there 👋
-## Welcome to my Github
+# Hey, I'm Evinci 👋
 
-- 🌱 I’m currently learning RL and NLP
-- 👯 I’m looking to collaborate on github with someone has same interests
-- 🤔 I’m looking for help with everyone as long as i can
-- 💬 Ask me about everything
-- 📫 How to reach me: evinciverciy@gmail.com
+Curious about AI, thoughtful interfaces, and turning “what if?” into something people can use.
 
-![Alt](https://repobeats.axiom.co/api/embed/d940177dbe41d0046d527012c6f175c420887a21.svg "Repobeats analytics image")
-<!--
-**EEvinci/EEvinci** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🔭 Currently exploring
 
-Here are some ideas to get you started:
+- **AI agents & workflow automation** — connecting tools to get useful work done.
+- **AI-assisted development** — experimenting with coding assistants, from an initial idea to a working app.
+- **AI in education** — exploring how AI can support teaching, learning, and knowledge discovery.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠️ What I build with
+
+- **Web:** React · Next.js · Vue · TypeScript
+- **AI & automation:** Python
+- **Apple platforms:** Exploring Swift & SwiftUI
+
+### 💡 What I'd like to build
+
+AI tools that fit into real educational settings — helping teachers prepare lessons, organize materials, and give useful feedback.
+
+I'd love to turn everyday frustrations into practical solutions, then refine them with the people who use them.
+
+### 🎨 A few things I care about
+
+Clean typography, restrained colors, generous whitespace, and small interactions that make an interface feel alive.
+
+I enjoy the part where a working prototype starts to feel like a thoughtfully made product.
+
+### 🤝 Let's make something
+
+Happy to compare AI tools, swap ideas, share unfinished experiments, or build something useful together.
+
+📫 [evinciverciy@gmail.com](mailto:evinciverciy@gmail.com)
