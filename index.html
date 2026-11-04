@@ -104,6 +104,42 @@
 @keyframes eh-clear{0%,34%{opacity:0;transform:translateY(7px);filter:blur(4px)}47%,90%{opacity:1;transform:translateY(0);filter:blur(0)}100%{opacity:0;transform:translateY(0)}}
 @media(prefers-reduced-motion:reduce){#evinci-hook[data-unravel="true"] .eh-lettercloud{display:none}#evinci-hook[data-unravel="true"] .eh-clarity{animation:none;opacity:1}}
 
+/* Full browser layout; the README image remains a separate compact asset. */
+html{background:#fbf8f3}body{padding:0;margin:0}main{max-width:none;margin:0}
+#evinci-hook{--page-gutter:clamp(22px,6vw,144px);border:0;border-radius:0;min-height:100svh;display:flex;flex-direction:column;overflow:clip}
+#evinci-hook .eh-top,#evinci-hook .eh-hero,#evinci-hook .eh-explore{width:calc(100% - var(--page-gutter)*2);max-width:1680px;margin-left:auto;margin-right:auto}
+#evinci-hook .eh-top{padding:clamp(22px,3vh,42px) 0 25px;flex-shrink:0}
+#evinci-hook .eh-hero{padding:40px 0 45px;flex:1;gap:clamp(32px,6vw,120px);grid-template-columns:minmax(0,1.06fr) minmax(0,1fr)}
+#evinci-hook .eh-hero>div:first-child{min-width:0}
+#evinci-hook .eh-explore{padding:25px 0 38px;flex-shrink:0}
+@media(min-width:900px){
+#evinci-hook .eh-name{font-size:clamp(38px,3.2vw,57px)}
+#evinci-hook .eh-edition{font-size:clamp(11px,.8vw,14px);letter-spacing:2px}
+#evinci-hook .eh-eyebrow{font-size:clamp(11px,.85vw,15px);margin-bottom:24px;letter-spacing:2.4px}
+#evinci-hook .eh-title-stage{width:100%;max-width:clamp(390px,34vw,630px);padding:18px 3px 25px;margin:0}
+#evinci-hook .eh-lede{max-width:clamp(350px,29vw,480px);font-size:clamp(23px,1.9vw,32px);padding:23px 25px 23px 30px;margin-top:clamp(22px,3vh,42px);border-radius:18px}
+#evinci-hook .eh-stage{--portrait-height:clamp(390px,48svh,660px);height:var(--portrait-height);width:100%;max-width:620px;justify-self:center}
+#evinci-hook .eh-person{height:var(--portrait-height);bottom:15px}
+#evinci-hook .eh-window{inset:25px 20px 28px 25px;border-radius:350px 350px 4px 4px}
+#evinci-hook .eh-frame{inset:7px 36px 46px 6px;border-radius:350px 350px 0 0}
+#evinci-hook .eh-flip{width:clamp(200px,16vw,275px);height:clamp(88px,7.2vw,115px);right:5px;bottom:0}
+#evinci-hook .eh-face{padding:16px 20px;gap:9px}
+#evinci-hook .eh-face strong{font-size:clamp(28px,2.4vw,39px)}
+#evinci-hook .eh-back strong{font-size:clamp(26px,2.15vw,35px)}
+#evinci-hook .eh-face small{font-size:clamp(10px,.75vw,13px)}
+#evinci-hook .eh-hand{left:calc(50% - var(--portrait-height)*.21 - 24px);top:calc(47% - 39px)}
+#evinci-hook .eh-idea{left:calc(50% - var(--portrait-height)*.21 - 15px);top:calc(47% - 30px)}
+#evinci-hook .eh-idea-note{top:58%;left:5%;max-width:230px;font-size:24px;padding:13px 16px}
+#evinci-hook h2{font-size:clamp(12px,.85vw,15px);margin-bottom:22px}
+#evinci-hook .eh-topics{gap:clamp(20px,2.4vw,45px)}
+#evinci-hook .eh-topic{min-height:clamp(132px,15vh,185px);padding:22px 18px}
+#evinci-hook h3{font-size:clamp(23px,1.7vw,31px);margin-bottom:9px}
+#evinci-hook .eh-topic p{font-size:clamp(20px,1.5vw,27px);max-width:320px}
+}
+@media(min-width:900px) and (max-height:800px){#evinci-hook .eh-top{padding-top:21px;padding-bottom:20px}#evinci-hook .eh-hero{padding-top:27px;padding-bottom:31px}#evinci-hook .eh-title-stage{max-width:400px}#evinci-hook .eh-stage{--portrait-height:370px}#evinci-hook .eh-lede{font-size:23px;margin-top:17px;padding-top:17px;padding-bottom:17px}#evinci-hook .eh-explore{padding-top:20px;padding-bottom:25px}#evinci-hook .eh-topic{min-height:120px}}
+@media(min-width:541px) and (max-width:899px){#evinci-hook{--page-gutter:32px}#evinci-hook .eh-hero{gap:25px;padding:38px 0}#evinci-hook .eh-title-stage{max-width:340px}#evinci-hook .eh-stage{width:100%;max-width:330px}#evinci-hook .eh-explore{padding-bottom:32px}}
+@media(max-width:540px){#evinci-hook .eh-top{padding:24px 0 22px;align-items:center}#evinci-hook .eh-edition{max-width:140px;font-size:9px}#evinci-hook .eh-hero{grid-template-columns:1fr;gap:34px;padding:30px 0 33px}#evinci-hook .eh-title-stage{max-width:350px}#evinci-hook .eh-lede{max-width:350px}#evinci-hook .eh-stage{width:280px;max-width:100%;height:320px}#evinci-hook .eh-person{height:320px}#evinci-hook .eh-explore{padding:23px 0 30px}}
+
 </style>
 <header class="eh-top"><button type="button" class="eh-name cursor-interaction" aria-label="Evinci. A curious little signature." aria-pressed="false">Evinci.</button><span class="eh-edition" aria-live="polite">A CURIOUS MIND<br>FIELD NOTES & EXPERIMENTS</span></header>
 <section class="eh-hero" aria-label="Introduction"><div><p class="eh-eyebrow">AI / EDUCATION / CREATION</p><div class="eh-title-stage"><h1 aria-label="Understand complexity. Act simply."><span class="eh-title-line eh-understand">Understand</span><button type="button" class="eh-title-line eh-complexity cursor-interaction" aria-label="Complexity. Find a little clarity." aria-pressed="false"><span class="eh-original" aria-hidden="true">complexity.</span><span class="eh-lettercloud" aria-hidden="true"><span style="--sx:-17px;--sy:14px;--spin:-34deg;--delay:0ms">c</span><span style="--sx:0px;--sy:-19px;--spin:-17deg;--delay:12ms">o</span><span style="--sx:17px;--sy:24px;--spin:0deg;--delay:24ms">m</span><span style="--sx:-17px;--sy:-29px;--spin:17deg;--delay:36ms">p</span><span style="--sx:0px;--sy:14px;--spin:34deg;--delay:48ms">l</span><span style="--sx:17px;--sy:-19px;--spin:-34deg;--delay:60ms">e</span><span style="--sx:-17px;--sy:24px;--spin:-17deg;--delay:72ms">x</span><span style="--sx:0px;--sy:-29px;--spin:0deg;--delay:84ms">i</span><span style="--sx:17px;--sy:14px;--spin:17deg;--delay:96ms">t</span><span style="--sx:-17px;--sy:-19px;--spin:34deg;--delay:108ms">y</span><span style="--sx:0px;--sy:24px;--spin:-34deg;--delay:120ms">.</span></span><span class="eh-clarity" aria-hidden="true">clarity.</span></button><span class="eh-title-line eh-action"><button type="button" class="eh-act cursor-interaction" aria-label="Act. Set an idea in motion." aria-pressed="false">Act</button> <span class="eh-simply">simply.</span></span></h1></div><p class="eh-lede" aria-live="polite">Exploring what AI can do.<br>Building things worth using.</p></div><div class="eh-stage"><div class="eh-window"></div><div class="eh-frame"></div><div class="eh-sky" aria-hidden="true"><span>✦</span><span>✧</span><span>✧</span><span>✦</span><span>✧</span><span>✦</span></div><img class="eh-person" src="assets/character.webp" alt="Evinci character wearing a brown jacket, reaching out a hand"><button type="button" class="eh-hand cursor-interaction" aria-label="A little spark in the palm. Catch an idea." aria-pressed="false"></button><span class="eh-idea" aria-hidden="true"></span><span class="eh-idea-note" role="status" aria-live="polite"></span><button type="button" class="eh-flip cursor-interaction" aria-label="Stay curious. Flip to try another angle." aria-pressed="false"><span class="eh-flip-inner" aria-hidden="true"><span class="eh-face"><strong>Stay curious.</strong><small>CLICK TO FLIP ↗</small></span><span class="eh-face eh-back"><strong>Try another angle.</strong><small>A FRESH PERSPECTIVE ↗</small></span></span></button></div></section>
